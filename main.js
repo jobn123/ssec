@@ -1,7 +1,7 @@
 const request = require('./node_modules/request');
 
-// const { method, parameters } = JSON.parse(process.argv[2])
-// console.log('method:', method, 'parameters:', parameters)
+const { method, parameters } = JSON.parse(process.argv[2])
+console.log('method:', method, 'parameters:', parameters)
 
 /**
  * @description 格式化日期
