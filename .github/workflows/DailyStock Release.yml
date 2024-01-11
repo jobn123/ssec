@@ -27,11 +27,11 @@ jobs:
       - name: Install dependencies
         run: |
           npm install
-          zip -r Flow.Launcher.Plugin.DailyStock.zip . -x '*.git*'
+          zip -r Flow.Launcher.Plugin.ssec.zip . -x '*.git*'
       - name: Publish
         uses: softprops/action-gh-release@v1
         with:
-          files: 'Flow.Launcher.Plugin.DailyStock.zip'
+          files: 'Flow.Launcher.Plugin.ssec.zip'
           tag_name: "v${{steps.version.outputs.prop}}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
