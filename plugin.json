@@ -1,0 +1,12 @@
+{
+    "ID": "6b210241-43dd-47a3-a6b0-d9f6705c5196",
+    "ActionKeyword": "sh",
+    "Name": "Get Real-Time SHANGHAI Composite Index",
+    "Description": "Get Real-Time SHANGHAI Composite Index",
+    "Author": "jobn123",
+    "Version": "1.0.0",
+    "Language": "javascript",
+    "Website": "https://github.com/Flow-Launcher/Flow.Launcher.Plugin.HelloWorldNodeJS",
+    "ExecuteFileName": "main.js",
+    "IcoPath": "Images\\app.png"
+  }
